@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    width: 100%;
+    background: url('bg3.jpg') center center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar .logo {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: rgba(230, 130, 130);
+}
+
+.info {
+    margin-top: 50px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 48px;
+    color: #24201e;
+}
+
+.info h3 {
+    font-size: 24px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.info span {
+    color: #e68c3b;
+}
+
+.info p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.info a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #24201e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info a:hover {
+    background-color: #007bff;
+}
+
+.image {
+    position: absolute;
+    bottom: 0;
+    right:15%;
+    top: 5%;
+    transform: translate(50%, 50%);
+}
+
+.image img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.projects {
+    background-color: #ffffff; /* Background color for the project section */
+    padding: 40px; /* Add padding around the project section */
+}
+
+.projects h2 {
+    font-size: 24px; /* Font size for the project section heading */
+    color: #333333; /* Text color for the project section heading */
+    margin-bottom: 20px; /* Bottom margin for the project section heading */
+}
+
+.projects ul {
+    list-style: none; /* Remove default list styles */
+}
+
+.projects ul li {
+    background-color: #f9f9f9; /* Background color for each project item */
+    border-radius: 5px; /* Add border radius to project items */
+    padding: 20px; /* Add padding to project items */
+    margin-bottom: 20px; /* Bottom margin between project items */
+}
+
+.projects ul li h3 {
+    font-size: 20px; /* Font size for project titles */
+    color: #333333; /* Text color for project titles */
+    margin-bottom: 10px; /* Bottom margin for project titles */
+}
+
+.projects ul li p {
+    font-size: 16px; /* Font size for project descriptions */
+    color: #666666; /* Text color for project descriptions */
+    line-height: 1.6; /* Line height for project descriptions */
+}
+.skills {
+    background-color: #ffffff; /* Background color for the skills section */
+    padding: 20px; /* Padding around the skills section */
+    margin-bottom: 20px; /* Bottom margin for separation */
+}
+
+.skills h2 {
+    font-size: 24px; /* Font size for the skills section heading */
+    color: #333333; /* Text color for the skills section heading */
+    margin-bottom: 20px; /* Bottom margin for the heading */
+}
+
+.skills ul {
+    list-style: none; /* Remove default list styles */
+}
+
+.skills ul li {
+    background-color: gray; /* Background color for each skill */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px; /* Padding for each skill */
+    margin-bottom: 10px; /* Bottom margin for each skill */
+}
+
+.skills ul li:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last skill */
+}
+
+.volunteering {
+    background-color: #ffffff; /* Background color for the volunteering section */
+    padding: 20px; /* Padding around the volunteering section */
+    margin-bottom: 20px; /* Bottom margin for separation */
+}
+
+.volunteering h2 {
+    font-size: 24px; /* Font size for the volunteering section heading */
+    color: grey; /* Text color for the volunteering section heading */
+    margin-bottom: 20px; /* Bottom margin for the heading */
+}
+
+.volunteering ul {
+    list-style: none; /* Remove default list styles */
+}
+
+.volunteering ul li {
+    background-color: gray; /* Background color for each volunteering experience */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px; /* Padding for each volunteering experience */
+    margin-bottom: 10px; /* Bottom margin for each volunteering experience */
+}
+
+.volunteering ul li:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last volunteering experience *.resume {
+        background-color: #ffffff; /* Background color for the resume section */
+        padding: 20px; /* Padding around the resume section */
+        margin-bottom: 20px; /* Bottom margin for separation */
+    }
+    
+    .resume h2 {
+        font-size: 24px; /* Font size for the resume section heading */
+        color: #333333; /* Text color for the resume section heading */
+        margin-bottom: 10px; /* Bottom margin for the heading */
+    }
+    
+    .resume p {
+        font-size: 16px; /* Font size for the resume description */
+        color: #666666; /* Text color for the resume description */
+        margin-bottom: 10px; /* Bottom margin for the description */
+    }
+    
+    .resume a {
+        display: inline-block;
+        background-color: #007bff; /* Background color for the resume link */
+        color: #ffffff; /* Text color for the resume link */
+        text-decoration: none; /* Remove underline from the link */
+        padding: 10px 20px; /* Padding for the link */
+        border-radius: 5px; /* Add border radius to the link */
+        transition: background-color 0.3s ease; /* Smooth transition on hover */
+    }
+    
+    .resume a:hover {
+        background-color: #0056b3; /* Background color on hover */
+    }
+    
+    .social-links {
+        background-color: #ffffff; /* Background color for the social links section */
+        padding: 20px; /* Padding around the social links section */
+        margin-bottom: 20px; /* Bottom margin for separation */
+    }
+    
+    .social-links h2 {
+        font-size: 24px; /* Font size for the social links section heading */
+        color: #333333; /* Text color for the social links section heading */
+        margin-bottom: 10px; /* Bottom margin for the heading */
+    }
+    
+    .social-links ul {
+        list-style: none; /* Remove default list styles */
+    }
+    
+    .social-links ul li {
+        margin-bottom: 10px; /* Bottom margin for each social link */
+    }
+    
+    .social-links ul li a {
+        display: inline-block;
+        background-color: #007bff; /* Background color for the social link */
+        color: #ffffff; /* Text color for the social link */
+        text-decoration: none; /* Remove underline from the link */
+        padding: 10px 20px; /* Padding for the link */
+        border-radius: 5px; /* Add border radius to the link */
+        transition: background-color 0.3s ease; /* Smooth transition on hover */
+    }
+    
+    .social-links ul li a:hover {
+        background-color: #0056b3; /* Background color on hover */
+    }
+    
+
+
+    .email {
+        background-color: #ffffff; /* Background color for the email section */
+        padding: 20px; /* Padding around the email section */
+        margin-bottom: 20px; /* Bottom margin for separation */
+    }
+    
+    .email h2 {
+        font-size: 24px; /* Font size for the email section heading */
+        color: #333333; /* Text color for the email section heading */
+        margin-bottom: 10px; /* Bottom margin for the heading */
+    }
+    
+    .email p {
+        font-size: 16px; /* Font size for the email address */
+        color: #666666; /* Text color for the email address */
+        margin-bottom: 10px; /* Bottom margin for the email address */
+    }
+    
+    .email a {
+        color: #007bff; /* Text color for the email link */
+        text-decoration: none; /* Remove underline from the link */
+        transition: color 0.3s ease; /* Smooth transition on hover */
+    }
+    
+    .email a:hover {
+        color: #0056b3; /* Text color on hover */
+    }
+    .copyright {
+        background-color: #333; /* Background color for the copyright section */
+        color: #fff; /* Text color for the copyright text */
+        text-align: center; /* Center-align the text */
+        padding: 20px 0; /* Padding around the text */
+    }
+        
